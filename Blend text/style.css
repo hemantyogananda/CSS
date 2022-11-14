@@ -1,0 +1,18 @@
+.blend {
+    height: 100vh;
+    display: flex;
+    background: rgb(240, 152, 18);
+}
+
+.blend img {
+    height: 100vh;
+    position: absolute;
+    filter: contrast(1.2);
+}
+
+.blend h1 {
+    mix-blend-mode: overlay;
+    color: #fff;
+    font: 800 5rem 'Montserrat';
+    margin: 25px
+}
